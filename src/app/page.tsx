@@ -6,26 +6,59 @@ export default function ManifestoSite() {
         <div className="absolute inset-0 opacity-20 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white via-zinc-600/10 to-black" />
         <div className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
           <div className="max-w-3xl space-y-6">
-            <p className="uppercase tracking-widest text-xs text-zinc-400">Manifesto</p>
+            <p className="uppercase tracking-widest text-xs text-zinc-400">Strange Loop Labs</p>
             <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
               A new approach to enterprise AI automation.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              Why hasn’t AI changed the world yet?
+              Why hasn’t AI transformed businesses yet?
             </p>
             <p className="text-zinc-300">
-              AI is already capable of automating tax preparation, medical billing, financial reporting, insurance underwriting, regulatory reporting, clinical documentation, and much of mundane professional work. Enterprises are investing billions.
+              AI is already capable of automating complex professional work. Enterprises are investing billions. Professionals are desperate for solutions. Yet 95% of AI pilots fail.
             </p>
             <p className="text-zinc-200">
-              The bitter lesson: forcing professionals to learn new “AI tools” produces only surface‑level gains. Real transformation happens when great engineers work <span className="font-semibold">alongside</span> domain experts to build AI that disappears into the workflow—delivering faster, more accurate outcomes.
+              Off-the-shelf AI tools only produce surface‑level gains. Real transformation happens when great engineers work <span className="font-semibold">alongside</span> professionals to build AI for their toughest, costliest processes.
             </p>
-            <div className="flex flex-wrap gap-3 pt-4">
-              <a href="#contact" className="rounded-2xl px-5 py-3 bg-white text-black font-medium shadow hover:shadow-lg transition">Talk to an engineer</a>
-              <a href="#proof" className="rounded-2xl px-5 py-3 border border-zinc-600 hover:border-zinc-300 transition">See proof</a>
-            </div>
+            <p className="text-zinc-200">
+            Strange Loop delivers outcomes, not tools. We are experienced AI engineers who sit with your experts, understand their most critical bottlenecks, and build AI that automates it. 
+            </p>
           </div>
         </div>
       </header>
+
+      {/* Case Studies */}
+      <section className="border-y border-zinc-800 bg-zinc-950/40">
+        <div className="mx-auto max-w-7xl px-6 py-20 grid md:grid-cols-3 gap-10 items-start">
+          <div className="md:col-span-1">
+            <h2 className="text-3xl font-semibold">Case studies</h2>
+            <p className="mt-4 text-zinc-300">Real results in production:</p>
+          </div>
+          <div className="md:col-span-2 grid sm:grid-cols-3 gap-6">
+            {[
+              {
+                title: "Asset management tax",
+                body:
+                  "Tripled capacity by automating high‑variance reconciliation, exception handling, and review gates.",
+              },
+              {
+                title: "Wealth management ops",
+                body:
+                  "Insourced from BPO with governed AI that meets expert standards and audit requirements.",
+              },
+              {
+                title: "Global tax processing",
+                body:
+                  "Scaled to 1,000,000+ returns with accurate extraction, reconciliation, and audit trails.",
+              },
+            ].map((c) => (
+              <div key={c.title} className="rounded-2xl border border-zinc-800 p-6 bg-zinc-900/40">
+                <div className="text-sm uppercase tracking-widest text-zinc-400">{c.title}</div>
+                <p className="mt-2 text-zinc-200">{c.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Outcomes Not Tools */}
       <section className="border-y border-zinc-800 bg-zinc-950/40">
