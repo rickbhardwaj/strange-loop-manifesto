@@ -8,16 +8,13 @@ export default function ManifestoSite() {
           <div className="max-w-3xl space-y-4">
             <p className="uppercase tracking-widest text-xs text-zinc-400">Strange Loop Labs</p>
             <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
-              Why hasn’t AI moved the needle at your firm yet?
+              Great custom AI is a competitive advantage.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              Great custom AI is a competitive advantage. Generic AI tools deliver commodity improvements, but differentiated outcomes come from crafting AI to your most strategic processes.
+              Why hasn't AI transformed your firm yet? Generic AI tools produce commodity results. Differentiated outcomes come from engineers crafting AI to your most strategic processes.
             </p>
-            <p className="text-zinc-300">
-              We are a team of applied AI engineers with a new approach to enterprise AI transformation. We sit with professionals to understand their data complexities and painful bottlenecks, then build AI that automates it. We handle the entire process from design, development, deployment, hosting, and support.
-            </p>
-            <p className="text-zinc-200">
-              We identify one valuable process, deliver results in days or weeks, then scale across the organization.
+            <p className="text-lg md:text-xl text-zinc-300">
+              We are a team of applied AI engineers from top ML orgs. We sit with professionals to understand their toughest processes and data complexities, then build AI that automates it end-to-end. 
             </p>
           </div>
         </div>
