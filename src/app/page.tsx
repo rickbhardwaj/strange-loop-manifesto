@@ -11,48 +11,40 @@ export default function ManifestoSite() {
               Great custom AI is a competitive advantage.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              Why hasn't AI transformed your firm yet? Generic AI tools produce commodity results. Differentiated outcomes come from engineers crafting AI to your most strategic processes.
+              Why hasn't AI transformed your firm yet? Generic AI tools produce commodity results. Differentiated outcomes come from engineers crafting AI to your strategic processes and most proficient professionals.
             </p>
             <p className="text-lg md:text-xl text-zinc-300">
               We are a team of applied AI engineers from top ML orgs. We sit with professionals to understand their toughest processes and data complexities, then build AI that automates it end-to-end. 
             </p>
+            {/* Case Studies (inline subsection) */}
+            <div className="mt-8">
+              <h2 className="text-xl md:text-2xl font-semibold">Case studies</h2>
+              <div className="mt-4 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+                {[
+                  {
+                    title: "Leading Asset Management Firm",
+                    body: "Tripled the capacity of the leading asset management tax team",
+                  },
+                  {
+                    title: "Leading Global Tax Firm",
+                    body: "Automatically processed 1M+ complex tax forms for the leading tax firm",
+                  },
+                  {
+                    title: "Mid-Sized Wealth Manager",
+                    body: "Enabled a wealth management firm to migrate off their BPO",
+                  },
+                ].map((c) => (
+                  <div key={c.body} className="rounded-2xl border border-zinc-800 p-5 bg-zinc-900/40">
+                    <div className="text-sm uppercase tracking-widest text-zinc-400">{c.title}</div>
+                    <p className="mt-2 text-zinc-200">{c.body}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </header>
 
-      {/* Case Studies */}
-      <section className="border-y border-zinc-800 bg-zinc-950/40">
-        <div className="mx-auto max-w-7xl px-6 py-12 md:py-14 grid md:grid-cols-3 gap-8 md:gap-10 items-start">
-          <div className="md:col-span-1">
-            <h2 className="text-3xl font-semibold">Case studies</h2>
-            <p className="mt-4 text-zinc-300">Real results in production:</p>
-          </div>
-          <div className="md:col-span-2 grid sm:grid-cols-3 gap-6">
-            {[
-              {
-                title: "Asset management tax",
-                body:
-                  "Tripled capacity by automating high‑variance reconciliation, exception handling, and review gates.",
-              },
-              {
-                title: "Wealth management ops",
-                body:
-                  "Insourced from BPO with governed AI that meets expert standards and audit requirements.",
-              },
-              {
-                title: "Global tax processing",
-                body:
-                  "Scaled to 1,000,000+ returns with accurate extraction, reconciliation, and audit trails.",
-              },
-            ].map((c) => (
-              <div key={c.title} className="rounded-2xl border border-zinc-800 p-5 bg-zinc-900/40">
-                <div className="text-sm uppercase tracking-widest text-zinc-400">{c.title}</div>
-                <p className="mt-2 text-zinc-200">{c.body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Outcomes Not Tools */}
       <section className="border-y border-zinc-800 bg-zinc-950/40">
