@@ -8,19 +8,22 @@ export default function ManifestoSite() {
           <div className="max-w-3xl space-y-4">
             <p className="uppercase tracking-widest text-xs text-zinc-400">Strange Loop Labs</p>
             <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
-              A new approach to enterprise AI automation.
+              A new approach to enterprise AI transformation.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              Why hasn’t AI transformed businesses yet?
+              Why hasn’t AI changed the world yet? Models are already capable of complex work. Overworked professionals are desperate for solutions. Enterprises have already invested billions.
             </p>
             <p className="text-zinc-300 hidden md:block">
-              AI is already capable of automating complex professional work. Enterprises are investing billions. Professionals are desperate for solutions. Yet 95% of AI pilots fail.
+              The problem isn't the technology – it's the approach. Adding more tools, even AI-powered ones, just creates new burdens for already overwhelmed teams. No matter how much any vendor tries to customize their platform, they're still forcing your unique processes into their predetermined boxes.
             </p>
             <p className="text-zinc-200">
-              Off-the-shelf AI tools only produce surface‑level gains. Real transformation happens when great engineers work <span className="font-semibold">alongside</span> professionals to build AI for their toughest, costliest processes.
+              Customers want outcomes, not tools. Outcomes are delivered by custom software, built by great engineers.
             </p>
             <p className="text-zinc-200">
-            Strange Loop delivers outcomes, not tools. We are experienced AI engineers who sit with your experts, understand their most critical bottlenecks, and build AI that automates it. 
+              We are experienced engineers who embed directly with professionals to understand their complex data and painful bottlenecks, then build AI that automates them entirely – deployed on a secure, efficient platform running frontier AI.
+            </p>
+            <p className="text-zinc-200">
+              Our customers don’t attend onboarding sessions or undergo disruptive migrations. They just see faster, better outcomes as AI works behind the scenes.
             </p>
           </div>
         </div>
