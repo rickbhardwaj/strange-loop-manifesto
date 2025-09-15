@@ -8,35 +8,50 @@ export default function ManifestoSite() {
           <div className="max-w-3xl space-y-4">
             <p className="uppercase tracking-widest text-xs text-zinc-400">Strange Loop Labs</p>
             <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
-              Great custom AI is a competitive advantage.
+              Custom AI is a competitive advantage.
             </h1>
-            <p className="text-lg md:text-xl text-zinc-300">
-              Why hasn't AI transformed your firm yet? Generic AI tools produce commodity results. Differentiated outcomes come from engineers crafting AI to your strategic processes and most proficient professionals.
+            <p className="text-lg md:text-xl text-zinc-300 font-bold">
+              We are the AI engineering team the world's leading firms trust to deliver transformational outcomes
             </p>
             <p className="text-lg md:text-xl text-zinc-300">
-              We are a team of applied AI engineers from top ML orgs. We sit with professionals to understand their toughest processes and data complexities, then build AI that automates it end-to-end. 
+              We believe generic AI tools fail to transform firms because they ignore the messy reality of expert professional work: unstructured documents, data silos, and hidden business rules. 
             </p>
-            {/* Case Studies (inline subsection) */}
+            <p className="text-lg md:text-xl text-zinc-300">
+              Differentiated outcomes come from great engineers working closely with professionals to understand their process, building custom AI tailored to their workflow, and iterating daily to improve and expand.
+            </p>
+            
+            {/* <p className="text-lg md:text-xl text-zinc-300 font-bold">
+              - Tripled the capacity of the leading asset management team
+            </p>
+            <p className="text-lg md:text-xl text-zinc-300 font-bold">
+              - Processed over 1 million tax returns for a top global tax firm.
+            </p>
+            <p className="text-lg md:text-xl text-zinc-300 font-bold">
+              - Fully replaced a PE-backed wealth management firm's BPO spend with AI
+            </p> */}
             <div className="mt-8">
-              <h2 className="text-xl md:text-2xl font-semibold">Case studies</h2>
+              <h2 className="text-xl md:text-2xl font-semibold">Case Studies</h2>
               <div className="mt-4 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
                 {[
                   {
-                    title: "Leading Asset Management Firm",
-                    body: "Tripled the capacity of the leading asset management tax team",
+                    metric: "Tripled capacity",
+                    caption:
+                      "for the leading asset‑management tax team by automating high‑variance reconciliation and review.",
                   },
                   {
-                    title: "Leading Global Tax Firm",
-                    body: "Automatically processed 1M+ complex tax forms for the leading tax firm",
+                    metric: "1M+ tax returns",
+                    caption:
+                      "for a top global tax firm. 99%+ accuracy on forms too complex for off-the-shelf AI.",
                   },
                   {
-                    title: "Mid-Sized Wealth Manager",
-                    body: "Enabled a wealth management firm to migrate off their BPO",
+                    metric: "Migrated off BPO",
+                    caption:
+                      "enabled a wealth management firm to migrate off their BPO with AI that matches expert standards.",
                   },
-                ].map((c) => (
-                  <div key={c.body} className="rounded-2xl border border-zinc-800 p-5 bg-zinc-900/40">
-                    <div className="text-sm uppercase tracking-widest text-zinc-400">{c.title}</div>
-                    <p className="mt-2 text-zinc-200">{c.body}</p>
+                ].map((item) => (
+                  <div key={item.metric} className="rounded-2xl border border-zinc-800 p-5 bg-zinc-900/40">
+                    <div className="text-2xl font-semibold">{item.metric}</div>
+                    <p className="mt-2 text-zinc-300">{item.caption}</p>
                   </div>
                 ))}
               </div>
@@ -63,7 +78,7 @@ export default function ManifestoSite() {
               {
                 title: "Build",
                 body:
-                  "We configure AI that fits existing tools (Excel, Alteryx, SharePoint, ERPs) and deploy in weeks—not quarters.",
+                  "We build AI that fits existing tools (Excel, Alteryx, SharePoint, ERPs) and deploy in weeks, not quarters.",
               },
               {
                 title: "Scale",
@@ -80,33 +95,7 @@ export default function ManifestoSite() {
         </div>
       </section>
 
-      {/* Proof Points */}
-      <section id="proof" className="mx-auto max-w-7xl px-6 py-20">
-        <div className="grid md:grid-cols-3 gap-6">
-          {[
-            {
-              metric: "3× capacity",
-              caption:
-                "for a leading asset‑management tax team by automating high‑variance reconciliation and review.",
-            },
-            {
-              metric: "BPO → in‑house",
-              caption:
-                "enabled a wealth management firm to migrate off their BPO with AI that matches expert standards.",
-            },
-            {
-              metric: "1,000,000+ returns",
-              caption:
-                "processed for a top global tax firm with accurate, auditable extraction and review workflows.",
-            },
-          ].map((item) => (
-            <div key={item.metric} className="rounded-2xl border border-zinc-800 p-6 bg-zinc-950">
-              <div className="text-3xl font-semibold">{item.metric}</div>
-              <p className="mt-2 text-zinc-300">{item.caption}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      
 
       {/* The First Wave Failed */}
       <section className="border-y border-zinc-800 bg-gradient-to-b from-zinc-950 to-black">
