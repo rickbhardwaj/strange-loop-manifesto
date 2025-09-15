@@ -31,7 +31,7 @@ export default function ManifestoSite() {
             </p> */}
             <div className="mt-8">
               <h2 className="text-xl md:text-2xl font-semibold">Case Studies</h2>
-              <div className="mt-4 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+              <div className="mt-4 space-y-4">
                 {[
                   {
                     metric: "Tripled capacity",
