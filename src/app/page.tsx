@@ -8,16 +8,16 @@ export default function ManifestoSite() {
           <div className="max-w-3xl space-y-4">
             <p className="uppercase tracking-widest text-xs text-zinc-400">Strange Loop Labs</p>
             <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
-              Custom AI is a competitive advantage.
+              We build ridiculously custom AI for the world's leading firms.
             </h1>
+            {/* <p className="text-lg md:text-xl text-zinc-300">
+              Generic AI tools fail to transform firms because they ignore the messy reality of expert professional work: unstructured documents, data silos, and hidden business rules. 
+            </p> */}
+            <p className="text-lg md:text-xl text-zinc-300">
+              Differentiated AI outcomes come from great engineers working closely with professionals to understand their workflow, unstructured documents, data silos, and hidden business rules -- then build custom AI that automates it.
+            </p>
             <p className="text-lg md:text-xl text-zinc-300 font-bold">
-              We are the AI engineering team the world's leading firms trust to deliver transformational outcomes
-            </p>
-            <p className="text-lg md:text-xl text-zinc-300">
-              We believe generic AI tools fail to transform firms because they ignore the messy reality of expert professional work: unstructured documents, data silos, and hidden business rules. 
-            </p>
-            <p className="text-lg md:text-xl text-zinc-300">
-              Differentiated outcomes come from great engineers working closely with professionals to understand their process, building custom AI tailored to their workflow, and iterating daily to improve and expand.
+              We are a team of AI engineers the world's largest firms trust to deliver AI outcomes their critical business processes. 
             </p>
             
             {/* <p className="text-lg md:text-xl text-zinc-300 font-bold">
@@ -30,7 +30,7 @@ export default function ManifestoSite() {
               - Fully replaced a PE-backed wealth management firm's BPO spend with AI
             </p> */}
             <div className="mt-8">
-              <h2 className="text-xl md:text-2xl font-semibold">Case Studies</h2>
+              <h2 className="text-xl md:text-4xl font-semibold">Here's an example.</h2>
               <div className="mt-4 space-y-4">
                 {[
                   {
