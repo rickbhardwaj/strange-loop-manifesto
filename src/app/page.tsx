@@ -11,49 +11,37 @@ export default function ManifestoSite() {
               Generic AI fails.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              Generic AI tools fail to transform firms because they ignore the messy reality of expert professional work: unstructured documents, data silos, and hidden business rules. 
+              Generic AI tools ignore the messy reality of expert professional work: unstructured documents, data silos, and hidden business rules. This is where all your firm's value is.
             </p>
             <p className="text-lg md:text-xl text-zinc-300">
-              Differentiated AI outcomes come from great engineers working closely with professionals to understand their workflow -- then build custom AI that automates it.
+              Differentiated AI outcomes come from great engineers working closely with professionals to understand their workflow -- then building custom AI that automates it.
             </p>
             <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
-              We build ridicoulusly custom AI for the world's leading firms.
+              We build ridiculously custom AI for leading firms.
             </h1>
-            <p className="text-lg md:text-xl text-zinc-300 font-bold">
-              Here's an example:
-            </p>
-            
-            {/* <p className="text-lg md:text-xl text-zinc-300 font-bold">
-              - Tripled the capacity of the leading asset management team
-            </p>
-            <p className="text-lg md:text-xl text-zinc-300 font-bold">
-              - Processed over 1 million tax returns for a top global tax firm.
-            </p>
-            <p className="text-lg md:text-xl text-zinc-300 font-bold">
-              - Fully replaced a PE-backed wealth management firm's BPO spend with AI
-            </p> */}
+            <p className="text-lg md:text-xl text-zinc-300">
+              We're a team of AI engineers that go beyond any other team when it comes to customization. We sit with professionals, monitor daily.
+            </p> 
             <div className="mt-8">
-              {/* <h2 className="text-xl md:text-4xl font-semibold">Here's an example.</h2> */}
+              <h2 className="text-xl md:text-4xl font-semibold">Case Study: Big Four Accounting Firm</h2>
               <div className="mt-4 space-y-6">
-                <div>
-                  <h3 className="text-2xl md:text-3xl font-semibold">AI Transformation for a Big Four Tax Delivery Team</h3>
-                  <p className="text-sm text-zinc-500 mt-1">Fort Worth, TX — June 2025</p>
-                </div>
-
                 {/* Intro / Context */}
-                <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5">
+                <div className="space-y-3">
                   <p className="text-zinc-200">A 60‑person Big Four team delivering complex fund tax filings was hitting capacity limits.</p>
-                  <ul className="mt-3 text-zinc-300 space-y-1 list-disc pl-5">
+                  <ul className="text-zinc-300 space-y-1 list-disc pl-5">
                     <li>1M+ K‑1/K‑3 forms processed every year</li>
                     <li>100+ high‑variance PDFs per filing</li>
                     <li>20% of time lost to reconciliation across systems</li>
                     <li>$10k fine per miss; complexity has quadrupled since 2020</li>
                   </ul>
                 </div>
+            <p className="text-lg md:text-xl text-zinc-300">
+              Every customer gets a solution designed for their workflow, but below is an example of one of our partnerships at scale.
+            </p>
 
                 {/* Approach */}
-                <div className="grid gap-4 md:grid-cols-2">
-                  <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5">
+                <div className="grid gap-6 md:grid-cols-2">
+                  <div>
                     <div className="text-sm uppercase tracking-widest text-zinc-400">Document AI</div>
                     <p className="mt-2 text-zinc-200">Custom extraction models integrated into existing tax software via API.</p>
                     <ul className="mt-2 text-zinc-300 space-y-1 list-disc pl-5">
@@ -62,7 +50,7 @@ export default function ManifestoSite() {
                       <li>Training tools cut new‑form time 1 week → 1 day</li>
                     </ul>
                   </div>
-                  <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5">
+                  <div>
                     <div className="text-sm uppercase tracking-widest text-zinc-400">Excel‑based AI Agent</div>
                     <p className="mt-2 text-zinc-200">Automated reconciliation of calculations, adjustments, and allocations in Excel.</p>
                     <ul className="mt-2 text-zinc-300 space-y-1 list-disc pl-5">
@@ -86,9 +74,9 @@ export default function ManifestoSite() {
                 </div>
 
                 {/* Results */}
-                <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5">
+                <div>
                   <div className="text-sm uppercase tracking-widest text-zinc-400">Results</div>
-                  <div className="mt-3 grid gap-4 md:grid-cols-2">
+                  <div className="mt-3 grid gap-6 md:grid-cols-2">
                     <div>
                       <div className="font-medium text-zinc-200">Document processing</div>
                       <ul className="mt-2 text-zinc-300 space-y-1 list-disc pl-5">
@@ -108,9 +96,12 @@ export default function ManifestoSite() {
                 </div>
 
                 {/* Expansion */}
-                <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5">
+                <div className="space-y-3">
                   <p className="text-zinc-200">What began with reconciliation became a template for the practice. Reusable components now power dozens of workflows across tax.</p>
-                  <p className="mt-2 text-zinc-300 italic">“Strange Loop delivered a quick win in a strategic area, then built reusable components to scale across the practice.” — Tax AI Principal</p>
+                  <blockquote className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5 text-zinc-300 italic">
+                    “Strange Loop delivered a quick win in a strategic area, then built reusable components to scale across the practice.”
+                    <div className="mt-2 not-italic text-xs text-zinc-500">— Tax AI Principal</div>
+                  </blockquote>
                 </div>
               </div>
             </div>
