@@ -7,20 +7,23 @@ export default function ManifestoSite() {
         <div className="relative mx-auto max-w-7xl px-6 py-14 md:py-16">
           <div className="max-w-3xl space-y-4">
             <p className="uppercase tracking-widest text-xs text-zinc-400">Strange Loop Labs</p>
-            <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
-              Custom AI is a competitive advantage.
+            <h1 className="text-3xl md:text-3xl font-semibold leading-tight">
+              Differentiated AI is a competitive advantage.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              Everybody will use AI tools, but top percentile firms will have <b>differentiated AI outcomes</b>: superior deliverables ("40% more deductions"), expand to clients faster (80% instead of 20% market share), and train new associates in a fraction of the time (a year instead of four.)
+              Everybody will use AI tools. But top percentile firms with <b>differentiated AI will deliver differentiated outcomes</b>: higher quality deliverables, client capacity beyond what's humanly possible, and associates trained in a fraction of the time. 
             </p>
-            <p className="text-lg md:text-xl text-zinc-300">
-              <b>Differentiated AI outcomes</b> come from <b>great engineers</b> working closely with professionals and building AI deeply tailored to their process, tools, and data.
-            </p>
-            <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
-              We build ridiculously custom AI for leading firms.
+            <h1 className="text-3xl md:text-3xl font-semibold leading-tight">
+              Differentiated AI comes from craft.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              We're a team of AI engineers from leading ML orgs like Amazon. We're experts at designing and deploying custom AI tools that transform orgs. We build and customize to a degree that nobody else does. Here's an example:
+              We believe specialized AI products built by engineers working side-by-side with professionals to deeply understand their process, designed to use the tools they already use, and obsessed over until they’re perfect. 
+            </p>
+            <h1 className="text-3xl md:text-3xl font-semibold leading-tight">
+              We build ridicously well-crafted AI for the world's leading firms.
+            </h1>
+            <p className="text-lg md:text-xl text-zinc-300">
+              We're a team of AI engineers who build best-in-class AI for the world's most complex processes.
             </p> 
             <div className="mt-8">
               <h2 className="text-xl md:text-4xl font-semibold">Case Study: Big Four Accounting Firm</h2>
