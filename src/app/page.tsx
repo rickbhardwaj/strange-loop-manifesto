@@ -8,29 +8,27 @@ export default function ManifestoSite() {
           <div className="max-w-3xl space-y-4">
             <p className="uppercase tracking-widest text-xs text-zinc-400">Strange Loop Labs</p>
             <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
-              Custom AI will be the most important competitive advantage over the next decade.
+              Custom AI is a competitive advantage.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              Generic AI tools ignore the messy reality of expert professional work: unstructured documents, data silos, and hidden business rules. This is where all your firm's value is.
+              Everybody will use AI tools, but top percentile firms will have <b>differentiated AI outcomes</b>: superior deliverables ("40% more deductions"), expand to clients faster (80% instead of 20% market share), and train new associates in a fraction of the time (a year instead of four.)
             </p>
             <p className="text-lg md:text-xl text-zinc-300">
-              Differentiated AI outcomes come from great engineers working closely with professionals and building custom AI that automates and amplifies their work.
+              <b>Differentiated AI outcomes</b> come from <b>great engineers</b> working closely with professionals and building AI deeply tailored to their process, tools, and data.
             </p>
             <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
               We build ridiculously custom AI for leading firms.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              We're a team of AI engineers with a radical approach to customization. We sit with professionals, understand their process, build AI directly into the tools they already use within days or weeks, and obsess over every point of accuracy. Every AI miss is folded back into the system.
+              We're a team of AI engineers from leading ML orgs like Amazon. We're experts at designing and deploying custom AI tools that transform orgs. We build and customize to a degree that nobody else does. Here's an example:
             </p> 
-            <p className="text-lg md:text-xl text-zinc-300">
-              Every customer gets a solution designed for their workflow, but below is an example of one of our partnerships at scale.
-            </p>
             <div className="mt-8">
               <h2 className="text-xl md:text-4xl font-semibold">Case Study: Big Four Accounting Firm</h2>
               <div className="mt-4 space-y-6">
                 {/* Intro / Context */}
                 <div className="space-y-3">
                   <p className="text-zinc-200">At this firm, a 60-person team is responsible for delivering accurate tax filings for the most complex investment portfolios in the industry, including many of the world's top 50 financial institutions. But traditional processes were reaching their breaking point.</p>
+                  <p className="text-zinc-200">Strange Loop engineers sat with accountants, tracing through reconciliations line by line. We quickly identified two critical bottlenecks where AI would deliver <b>tens of millions of dollars of ROI.</b> We built and deployed solutions in weeks, then iterated with the accounting team to chase down every point of accuracy and every AI mistake.</p>
                   {/* <ul className="text-zinc-300 space-y-1 list-disc pl-5">
                     <li>1M+ K‑1/K‑3 forms processed every year</li>
                     <li>20% of time lost to reconciliation across systems</li>
