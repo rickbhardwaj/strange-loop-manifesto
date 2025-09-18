@@ -7,23 +7,22 @@ export default function ManifestoSite() {
         <div className="relative mx-auto max-w-7xl px-6 py-14 md:py-16">
           <div className="max-w-3xl space-y-4">
             <p className="uppercase tracking-widest text-xs text-zinc-400">Strange Loop Labs</p>
-            <h1 className="text-3xl md:text-3xl font-semibold leading-tight">
-              Differentiated AI is a competitive advantage.
+            <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
+              We automate critical processes at leading firms with ridiculously custom AI.
             </h1>
             <p className="text-lg md:text-xl text-zinc-300">
-              Everybody will use AI tools. But top percentile firms with <b>differentiated AI will deliver differentiated outcomes</b>: higher quality deliverables, client capacity beyond what's humanly possible, and associates trained in a fraction of the time. 
+              Everybody will use AI tools. But top percentile firms will leverage specialized AI tools, crafted to their firm's unique processes, adapting to their knowledge, to <b>deliver differentiated outcomes</b>:
             </p>
-            <h1 className="text-3xl md:text-3xl font-semibold leading-tight">
-              Differentiated AI comes from craft.
-            </h1>
+            <ul className="text-lg md:text-xl text-zinc-300 list-disc pl-6 space-y-1">
+              <li>Higher quality deliverables -- "We found 40% more deductions"</li>
+              <li>Client capacity beyond what's humanly possible -- "We expanded market share from 20% to 80%"</li>
+              <li>Associates trained in a fraction of the time -- "Our new associates reached senior-level profeciency in a quarter instead of a year"</li>
+            </ul>
             <p className="text-lg md:text-xl text-zinc-300">
-              We believe specialized AI products built by engineers working side-by-side with professionals to deeply understand their process, designed to use the tools they already use, and obsessed over until they’re perfect. 
-            </p>
-            <h1 className="text-3xl md:text-3xl font-semibold leading-tight">
-              We build ridicously well-crafted AI for the world's leading firms.
-            </h1>
+              We're a team of AI engineers who built AI for complex professional processes at the world's leading firms. We sit with professionals, understand their process deeply, design AI tools they love, securely deploy, and obsess over AI accuracy until it's perfect.
+            </p> 
             <p className="text-lg md:text-xl text-zinc-300">
-              We're a team of AI engineers who build best-in-class AI for the world's most complex processes.
+              And we do this for every single customer. Here's an example:
             </p> 
             <div className="mt-8">
               <h2 className="text-xl md:text-4xl font-semibold">Case Study: Big Four Accounting Firm</h2>
@@ -31,7 +30,7 @@ export default function ManifestoSite() {
                 {/* Intro / Context */}
                 <div className="space-y-3">
                   <p className="text-zinc-200">At this firm, a 60-person team is responsible for delivering accurate tax filings for the most complex investment portfolios in the industry, including many of the world's top 50 financial institutions. But traditional processes were reaching their breaking point.</p>
-                  <p className="text-zinc-200">Strange Loop engineers sat with accountants, tracing through reconciliations line by line. We quickly identified two critical bottlenecks where AI would deliver <b>tens of millions of dollars of ROI.</b> We built and deployed solutions in weeks, then iterated with the accounting team to chase down every point of accuracy and every AI mistake.</p>
+                  <p className="text-zinc-200">Strange Loop engineers sat with accountants and quickly identified two critical bottlenecks where AI would deliver <b>tens of millions of dollars of ROI.</b> We built and deployed solutions in weeks, then iterated with the accounting team to chase down every point of accuracy and every AI mistake.</p>
                   {/* <ul className="text-zinc-300 space-y-1 list-disc pl-5">
                     <li>1M+ K‑1/K‑3 forms processed every year</li>
                     <li>20% of time lost to reconciliation across systems</li>
